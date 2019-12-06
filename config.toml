@@ -2,3 +2,43 @@ baseURL = "https://blissful-ardinghelli-b7dfb1.netlify.com"
 languageCode = "ja-jp"
 title = "天神社"
 theme = "ananke"
+
+hasCJKLanguage = true
+paginate = 10
+paginatePath = "page"
+
+[permalinks]
+	post = "/:year/:month/:day/:filename/"
+	code = "/:filename/"
+ 
+[author]
+    name = "Akira Shirasu"
+    email = "akira.shirasu@gmail.com"
+
+[params]
+	brand = "Tenjinsha"
+	topline = "天神社の紹介"
+	showRightSidebar = true
+	highlight = "default"
+	custom_css = ["css/table.css"]
+
+[[menu.main]]
+	name = "祭り・行事"
+	identifier = "event"
+	url = "/event/"
+	weight = -100
+	pre = "<i class='fa fa-info-circle'></i>"
+
+[[menu.main]]
+	name = "歴史"
+	identifier = "history"
+	url = "/history/"
+	weight = -100
+	pre = "<i class='fa fa-info-circle'></i>"
+
+[[menu.main]]
+	name = "神社案内"
+	identifier = "information"
+	url = "/about/"
+	weight = -100
+	pre = "<i class='fa fa-info-circle'></i>"

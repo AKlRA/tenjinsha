@@ -1,1 +1,1 @@
-# tenjinsha
+# 天神社.jp用
