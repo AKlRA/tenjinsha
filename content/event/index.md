@@ -1,7 +1,7 @@
 ---
 title: "時節の祭"
 date: 2019-12-01T20:23:00+09:00
-draft: true
+draft: false
 ---
 
 
